@@ -1,5 +1,10 @@
 # Syntax exercises
 
+```{attributiongrey} Attribution
+:class: attribution
+This page reuses CC BY 4.0 licensed content from {cite:t}`template`. {fa}`quote-left`{ref}`Find out more here.<external_resources>`
+```
+
 The previous exercise guide you through making your own book following the TeachBooks workflow. Now lets get specific and dive into the possibilities of the syntax used!
 
 As user type 3 you will work primarily in `.md` (Markdown) or `.ipynb`(Jupyter Notebook) files. In Jupyter Book, `.md` files contain text-based content with formatting, while `ipynb` files contain both text and executable code cells. `.md` files are much easier to edit online, so let's start with those!
