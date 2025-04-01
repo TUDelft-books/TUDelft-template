@@ -8,8 +8,7 @@ only_build_toc_files: true                           # Replace this with false i
 
 
 html:
-  favicon : "figures/TB_favicon.ico"                 # Replace this with your own favicon
-  baseurl :  "https://<user/org>.io/<repo>"          # Replace this with your own URL
+  baseurl :  "https://oit.tudelft.nl>/<repo>"        # Replace this with your own URL
 
 sphinx:                                              # Options passed on to the underlying sphinx-parser
   config:
@@ -17,7 +16,7 @@ sphinx:                                              # Options passed on to the 
     - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js # Required for live code: https://teachbooks.io/manual/features/live_code.html
     thebe_config:
       use_thebe_lite: true                           # Required for live code: https://teachbooks.io/manual/features/live_code.html
-      exclude_patterns: ["**/_*.yml", "**/*.md", "**/*.ipynb"] #exclude files which should not be accessible for live code: https://teachbooks.io/manual/features/live_code.html
+      exclude_patterns: ["**/_*.yml", "**/*.md", "**/*.ipynb"] # Exclude files which should not be accessible for live code: https://teachbooks.io/manual/features/live_code.html
     html_theme_options:
       logo:
         text: TU Delft GitHub OIT Template           # Replace this with your own book title
