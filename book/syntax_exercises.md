@@ -2,7 +2,7 @@
 
 ```{attributiongrey} Attribution
 :class: attribution
-This page reuses CC BY 4.0 licensed content from {cite:t}`template`. {fa}`quote-left`{ref}`Find out more here.<external_resources>`
+This chapter reuses CC BY 4.0 licensed content from {cite:t}`template`. {fa}`quote-left`{ref}`Find out more here.<external_resources>`
 ```
 
 The previous exercise guide you through making your own book following the TeachBooks workflow. Now lets get specific and dive into the possibilities of the syntax used!
