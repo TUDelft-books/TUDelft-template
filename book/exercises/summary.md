@@ -1,3 +1,10 @@
+````{margin}
+```{attributiongrey} Attribution
+:class: attribution
+This page reuses CC BY 4.0 licensed content from {cite:t}`template`. {fa}`quote-left`{ref}`Find out more here.<external_resources>`
+```
+````
+
 # Summary of exercises: All Exercises
 
 With the simple exercises, you did all the steps of our TeachBooks workflow!
@@ -24,10 +31,3 @@ Here is how these exercises relate to the workflow.
 
 For additional practice, there are more exercises relating to the capacities of each user type. 
 Have a look in the [manual](https://teachbooks.io/manual/installation-and-setup/user_types.html) to see which user type you are!
-
-````{margin}
-```{attributiongrey} Attribution
-:class: attribution
-This page reuses CC BY 4.0 licensed content from {cite:t}`template`. {fa}`quote-left`{ref}`Find out more here.<external_resources>`
-```
-````
