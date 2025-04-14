@@ -41,6 +41,7 @@ The following pages are included directly from an external resource and is not e
 
 The following pages contain content written by others, part of has been reused and/or modified by `<Editor>`
 - Page [](./exercises/001.md) includes text from {cite:t}`template` and is edited to be made TU Delft-specific. Original content licensed under CC BY 4.0 License. 
+- Page [](./syntax_exercises/012.md) includes text from {cite:t}`template` and is edited to be made TU Delft-specific. Original content licensed under CC BY 4.0 License. 
 
 
 (editor)=
