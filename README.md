@@ -16,7 +16,7 @@ Video available [here](https://youtu.be/nN3Oi_MVvF0)
 
 ![Use template](https://github.com/TeachBooks/template_figures/blob/main/use_template.png?raw=true)
 
-2. Fill in a repository name, this name will be used in the future url of your book. If you're a member of the [TUDelft-books GitHub Organization](https://github.com/TUDelft-books) you can add your book directly to that organization to have it hosted on oit.tudelft.nl
+2. Fill in a repository name, this name will be used in the future url of your book. If you're a member of the [TUDelft-books GitHub Organization](https://github.com/TUDelft-books) you can add your book directly to that organisation to have it hosted on `oit.tudelft.nl/<book>`. If you don't have access yet, you can apply for access at the owners of that organisation as [shown here](https://github.com/TUDelft-books/.github/blob/main/profile/README.md). You can also do this later and transfer your book to have it shown on the url `oit.tudelft.nl/<book>`
 
 ![Create new repository](https://github.com/TeachBooks/template_figures/blob/main/create_new_repository.png?raw=true)
 
