@@ -9,7 +9,8 @@ The template allows you to start your own open interactive textbook and hosting 
 How to use the template is demonstrated in the figure below, all steps are elaborated on in the following step-by-step tutorial.
 
 ![Demonstration for a public repository](https://github.com/TeachBooks/template_figures/blob/main/teachbooks-template.gif?raw=true)
-Video available [here](https://youtu.be/nN3Oi_MVvF0)
+
+Video available [here](https://youtu.be/nN3Oi_MVvF0). Please note that this demo shows the use of the [TeachBooks template](https://github.com/TeachBooks/template) which is used heavily by this TU Delft template. This TU Delft template only adds TU Delft specific guidelines and a [TU Delft theme for your book](https://github.com/TeachBooks/Sphinx-TUDelft-theme)
 
 
 1. To get started making your open interactive textbook with our functionalities, use the [TU Delft template](https://github.com/TUDelft-books/TUDelft-template) as template:
