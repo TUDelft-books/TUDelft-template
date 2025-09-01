@@ -39,6 +39,7 @@ sphinx:                                              # Options passed on to the 
     named_colors_custom_colors: {'attributiongrey':[150,150,150]} # Custom colour for the attribution admonitions
   extra_extensions:                                  
     - teachbooks_favourites                          # Gives you a starter package of extensions to use in your book, replace with individual extensions if you prefer some extensions not to be included (https://github.com/TeachBooks/TeachBooks-Favourites)
+    - sphinx_tudelft_theme                           # Add TU Delft theme: https://teachbooks.io/manual/external/Sphinx-TUDelft-theme/README.html
 
 bibtex_bibfiles: 
   - references.bib                                   # Required for references
