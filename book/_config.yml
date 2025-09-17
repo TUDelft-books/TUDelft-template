@@ -50,7 +50,7 @@ sphinx:                                              # Options passed on to the 
       announcement: ""                               # Default value (line can be removed), sets a banner announcement at the top of the site, configuration part of Jupyter Book (https://jupyterbook.org/en/stable/customize/config.html)
     html_show_copyright:   false                     # As the copyright is included in the author field, configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
     html_last_updated_fmt: '%B %-d, %Y'              # Adds the date of the last update to the footer, configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
-    html_static_path: null                           # Default value (line can be removed), adds folder that contain files that need to be included in the html, such as the location of the logo(s), configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
+    # html_static_path:                              # Default value not shown (line can be removed), adds folder that contain files that need to be included in the html, such as the location of the logo(s), configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
     keep_warnings: false                             # Default value (line can be removed), disables showing warnings in the book, configuration part of Sphinx (https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-keep_warnings)
     patch_config:
       disabled-patches: []                           # Default value (line can be removed), disables specific patches, configuration part of JupyterBook-Patches (https://teachbooks.io/manual/external/JupyterBook-Patches/README.html)
