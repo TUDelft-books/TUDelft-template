@@ -32,13 +32,13 @@ sphinx:                                              # Options passed on to the 
     thebe_config:
       use_thebe_lite: true                           # Required for live code, part of TeachBooks-Sphinx-Thebe (https://teachbooks.io/manual/features/live_code.html)
       exclude_patterns: ["**/_*.yml", "**/*.md", "**/*.ipynb"] #exclude files which should not be accessible for live code, configuration part of TeachBooks-Sphinx-Thebe (https://teachbooks.io/manual/features/live_code.html)
-    html_favicon: "figures/TB_favicon.ico"           # Replace this with your own favicon, configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
+    html_favicon: null                               # Default value (line can be removed), allows to add your own favicon (disabling of TU Delft favicon is required), configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
     html_baseurl: "https://oit.tudelft.nl>/<repo>"   # Replace this with your own URL, configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
     html_theme_options:
       logo:
         text: TU Delft GitHub OIT Template           # Replace this with your own book title, configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
-        image_light: TeachBooks_logo.svg             # Put your logo for the light mode here (can be the same as image_dark), configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
-        image_dark:  TeachBooks_logo_inverted.svg    # Put your logo for the dark mode here (can be the same as image_light), configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
+        image_light: null                            # Default value (line cam be removed), adds your logo for the light mode here (can be the same as image_dark) (disabling of TU Delft logo is required), configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
+        image_dark:  null                            # Default value (line cam be removed), adds your logo for the dark mode here (can be the same as image_light) (disabling of TU Delft logo is required), configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
       repository_url: "https://github.com/TUDelft-books/repo" # Add your own repo URL here, configuration part of Jupyter Book (https://jupyterbook.org/en/stable/customize/config.html)
       path_to_docs:          "book"                  # Required for edit_page_button, should be book if you're using TeachBooks package (https://github.com/TeachBooks/TeachBooks) or the TeachBooks deploy book workflow (https://teachbooks.io/manual/external/deploy-book-workflow/README.html), configuration part of Jupyter Book (https://jupyterbook.org/en/stable/customize/config.html)
       repository_branch:     "main"                  # Replace when you change the name of your published branch (required for edit_page_button), configuration part of Jupyter Book (https://jupyterbook.org/en/stable/customize/config.html)
@@ -50,7 +50,7 @@ sphinx:                                              # Options passed on to the 
       announcement: ""                               # Default value (line can be removed), sets a banner announcement at the top of the site, configuration part of Jupyter Book (https://jupyterbook.org/en/stable/customize/config.html)
     html_show_copyright:   false                     # As the copyright is included in the author field, configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
     html_last_updated_fmt: '%B %-d, %Y'              # Adds the date of the last update to the footer, configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
-    html_static_path: ["figures"]                    # Add folder that contain files that need to be included, such as the location of the logo(s), configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
+    html_static_path: null                           # Default value (line can be removed), adds folder that contain files that need to be included in the html, such as the location of the logo(s), configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
     keep_warnings: false                             # Default value (line can be removed), disables showing warnings in the book, configuration part of Sphinx (https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-keep_warnings)
     patch_config:
       disabled-patches: []                           # Default value (line can be removed), disables specific patches, configuration part of JupyterBook-Patches (https://teachbooks.io/manual/external/JupyterBook-Patches/README.html)
