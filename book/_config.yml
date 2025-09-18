@@ -98,8 +98,8 @@ sphinx:                                              # Options passed on to the 
     tud_change_titlesize: true                       # Default value (line can be removed), enlarges the size of title, configuration part of Sphinx-TUDelft-theme (https://teachbooks.io/manual/external/Sphinx-TUDelft-theme/README.html)
 
 teachbooks:
-  attribution_location: top                          # Default value (line can be removed), sets location of attribution admonition of external pages, configuration part of TeachBooks package (https://teachbooks.io/manual/features/external_toc.html)
-  attribution_color: null                            # Default value (line can be removed), uses blue colour for attribution admonition of external pages, configuration part of TeachBooks package (https://teachbooks.io/manual/features/external_toc.html)
+  attribution_location: margin                       # Default value is top, sets location of attribution admonition of external pages, configuration part of TeachBooks package (https://teachbooks.io/manual/features/external_toc.html)
+  attribution_color: attributiongrey                 # Default value is null, sets grey colour (as defined using custom-named-colours) for attribution admonition of external pages, configuration part of TeachBooks package (https://teachbooks.io/manual/features/external_toc.html)
 
 bibtex_bibfiles: 
   - references.bib                                   # Required for references, configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
