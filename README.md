@@ -27,7 +27,7 @@ Video available [here](https://youtu.be/nN3Oi_MVvF0). Please note that this demo
 
 ![Activate GitHub Pages](https://github.com/TeachBooks/template_figures/blob/main/set_up_pages.png?raw=true)
 
-5. Make an edit to the open interactive textbook by editing and committing changes to one of the files in the `book/` subdirectory (available under `Code`).  Now checkout the progress of the publishing workflow under `Actions` - `All workflows` -  `call-deploy-book` -`<the most recent workflow run>`. Remember, the first commit which is there has failed because GitHub Pages wasn't activated at the time of `Initial commit`, you could also re-run that job if you don't want to make an edit. You can do so by running the workflow from `Actions` - `All workflows` - `call-deploy-book` - `Initial commit` - `Re-run all jobs` - `Re-run jobs`:
+5. Now checkout the progress of the publishing workflow under `Actions` - `All workflows` -  `call-deploy-book` -`<the most recent workflow run>`. The first commit which is there might have failed because GitHub Pages wasn't activated at the time of `Initial commit`. Re-run that job from `Actions` - `All workflows` - `call-deploy-book` - `Initial commit` - `Re-run all jobs` - `Re-run jobs`:
 
 ![Action](https://github.com/TeachBooks/template_figures/blob/main/action_re-run.jpeg?raw=true)
 
@@ -43,8 +43,8 @@ Set the repository website as your GitHub Pages website under `Code`- `About` - 
 ![GitHub pages as website](https://github.com/TeachBooks/template_figures/blob/main/use_github_pages_website.png?raw=true)
 
 ## Features
-- A github repository structure for making a [Jupyter Book](https://github.com/executablebooks/jupyter-book) (`/book`)
-- An empty open interactive textbook containing an intro page on root, an example markdown page, an example jupyter notebook page, an example references page. and an example credits page. (`/book/_toc.yml`, `/book/_config.yml`, `/book/credits.md`, `/book/intro.md`, `/book/references.md`, `/book/some_content/overview.md`, `/book/some_content/text_and_code.ipynb`)
+- A github repository structure  (`/book`) for making a TeachBook: a [Jupyter Book v1](https://github.com/executablebooks/jupyter-book) for educational purposes
+- An empty TeachBook containing an intro page on root, an example markdown page, an example jupyter notebook page, an example references page. and an example credits page. (`/book/_toc.yml`, `/book/_config.yml`, `/book/credits.md`, `/book/intro.md`, `/book/references.md`, `/book/some_content/overview.md`, `/book/some_content/text_and_code.ipynb`)
 - A file ready for adding references (`references.bib`, `/book/references.md`)
 - An example favicon (web browser icon) (`/book/figures/favicon.ico`, `book/_config.yml`.)
 - An example logo (`/book/figures/TUDelft_logo_rgb.png`, `/book/config.yml`)
