@@ -97,6 +97,8 @@ sphinx:                                              # Options passed on to the 
     tud_change_mtext: true                           # Default value (line can be removed), renders text inside MathJax should not be the same as the surrounding html, configuration part of Sphinx-TUDelft-theme (https://teachbooks.io/manual/external/Sphinx-TUDelft-theme/README.html)
     tud_sticky_logo: true                            # Default value (line can be removed), makes the logo in the top left corner sticky when scrolling, configuration part of Sphinx-TUDelft-theme (https://teachbooks.io/manual/external/Sphinx-TUDelft-theme/README.html)
     tud_change_titlesize: true                       # Default value (line can be removed), enlarges the size of title, configuration part of Sphinx-TUDelft-theme (https://teachbooks.io/manual/external/Sphinx-TUDelft-theme/README.html)
+    sphinx_github_alerts_backquotes: 3               # Default value (line can be removed), sets the number of backticks used to start and end the admonitions, configuration part of Sphinx-GitHub-Alerts (https://teachbooks.io/manual/_git/github.com_TeachBooks_Sphinx-GitHub-Alerts/main/README.html)
+    sphinx_github_alerts_redirects: {}               # Default value (line can be removed), no redirects are set, configuration part of Sphinx-GitHub-Alerts (https://teachbooks.io/manual/_git/github.com_TeachBooks_Sphinx-GitHub-Alerts/main/README.html)
 
 
 teachbooks:
