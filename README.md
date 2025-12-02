@@ -1,8 +1,8 @@
-# Your first open interactive textbook using the GitHub template
+# Your first open interactive learning material using the GitHub template
 
 > This repository reuses CC BY 4.0 licensed content from https://github.com/TeachBooks/template.
 
-The template allows you to start your own open interactive textbook and hosting that textbook online without knowledge on Git, the Jupyter book package, python or anaconda. It doesn't elaborate on the collaborative functionalities of Git or how to edit the book. Please look at the TeachBooks manual (https://teachbooks.io/manual) to find more about that!
+The template allows you to start your own open interactive learning material and hosting that online without knowledge on Git, the Jupyter book package, python or anaconda. It doesn't provide full documentation on the functionalities. Please look at the TeachBooks manual (https://teachbooks.io/manual) to find more about that!
 
 ## How to get started
 
@@ -10,20 +10,20 @@ How to use the template is demonstrated in the figure below, all steps are elabo
 
 ![Demonstration for a public repository](https://github.com/TeachBooks/template_figures/blob/main/teachbooks-template.gif?raw=true)
 
-Video available [here](https://youtu.be/nN3Oi_MVvF0). Please note that this demo and the figures below show screenshots of the [TeachBooks template](https://github.com/TeachBooks/template) which is used heavily by this TU Delft template. This TU Delft template has the same steps to create your book, only adds TU Delft specific guidelines and a [TU Delft theme for your book](https://github.com/TeachBooks/Sphinx-TUDelft-theme).
+Video available [here](https://youtu.be/nN3Oi_MVvF0). Please note that this demo and the figures below show screenshots of the [TeachBooks template](https://github.com/TeachBooks/template) which is used heavily by this TU Delft template. This TU Delft template has the same steps to create your open interactive learning material, only adds TU Delft specific guidelines and a [TU Delft theme for your book](https://github.com/TeachBooks/Sphinx-TUDelft-theme).
 
 
-1. To get started making your open interactive textbook with our functionalities, use the [TU Delft template](https://github.com/TUDelft-books/TUDelft-template) as template:
+1. To get started making your open interactive learning material with our functionalities, use the [TU Delft template](https://github.com/TUDelft-books/TUDelft-template) as template:
 
 ![Use template](https://github.com/TeachBooks/template_figures/blob/main/use_template.png?raw=true)
 
-2. Fill in a repository name, this name will be used in the future url of your book. If you're a member of the [TUDelft-books GitHub Organization](https://github.com/TUDelft-books) you can add your book directly to that organisation to have it hosted on `oit.tudelft.nl/<book>`. If you don't have access yet, you can apply for access at the owners of that organisation as [shown here](https://github.com/TUDelft-books/.github/blob/main/profile/README.md). You can also do this later and transfer your book to have it shown on the url `oit.tudelft.nl/<book>`
+2. Fill in a repository name, this name will be used in the future url of your open interactive learning material. If you're a member of the [TUDelft-books GitHub Organization](https://github.com/TUDelft-books) you can add your open interactive learning material directly to that organisation to have it hosted on `oit.tudelft.nl/<book>`. If you don't have access yet, you can apply for access at the owners of that organisation as [shown here](https://github.com/TUDelft-books/.github/blob/main/profile/README.md). You can also do this later and transfer your open interactive learning material to have it shown on the url `oit.tudelft.nl/<book>`
 
 ![Create new repository](https://github.com/TeachBooks/template_figures/blob/main/create_new_repository.png?raw=true)
 
-3. You can choose for `Private` only if you've GitHub Pro, GitHub Team (like [TUDelft-books GitHub Organization](https://github.com/TUDelft-books)), GitHub Enterprise Cloud, or GitHub Enterprise Server. Otherwise, you won't be able to publish your open interactive textbook online. Furthermore, it prevents people from contributing to your book, making your book essentially 'closed' instead of 'open'. Note that the built book website is always public.
+3. You can choose for `Private` only if you've GitHub Pro, GitHub Team (like [TUDelft-books GitHub Organization](https://github.com/TUDelft-books)), GitHub Enterprise Cloud, or GitHub Enterprise Server. Otherwise, you won't be able to publish your open interactive  learning material online. Furthermore, it prevents people from contributing to your open interactive learning material, making your open interactive learning material essentially 'closed' instead of 'open'. Note that the built open interactive learning material website is always public.
 
-4. You need to activate GitHub pages so that your website is published to the internet. As long as you don't do this your open interactive textbook is not published online. Actually, now that you've taken this template our workflow tries to publish it to GitHub pages, which you didn't have the chance to activate yet. That's why you probably received an email with 'call-deploy-book: Some jobs were not successful' and you see the failed job under `Initial commit`. You can activate GitHub pages by setting the source for GitHub pages to GitHub Actions under `Settings` - `Pages` - `Build and deployment` - `Source` - `GitHub Actions`:
+4. You need to activate GitHub pages so that your website is published to the internet. As long as you don't do this your open interactive  learning material is not published online. Actually, now that you've taken this template our workflow tries to publish it to GitHub pages, which you didn't have the chance to activate yet. That's why you probably received an email with 'call-deploy-book: Some jobs were not successful' and you see the failed job under `Initial commit`. You can activate GitHub pages by setting the source for GitHub pages to GitHub Actions under `Settings` - `Pages` - `Build and deployment` - `Source` - `GitHub Actions`:
 
 ![Activate GitHub Pages](https://github.com/TeachBooks/template_figures/blob/main/set_up_pages.png?raw=true)
 
@@ -31,9 +31,9 @@ Video available [here](https://youtu.be/nN3Oi_MVvF0). Please note that this demo
 
 ![Action](https://github.com/TeachBooks/template_figures/blob/main/action_re-run.jpeg?raw=true)
 
-6. When the workflow has finished, visit your build book at `https://<username or organisation_name>.github.io/<repository_name>` (case sensitive). If you added it to the [TUDelft-books GitHub Organization](https://github.com/TUDelft-books) in step 2 it's on `https://oit.tudelft.nl/<repository_name>'. For our example it is [https://dummydocent.github.io/test_book_from_template/](https://dummydocent.github.io/test_book_from_template/) for the TeachBooks template repository and it's [https://oit.tudelft.nl/TUDelft-template/](https://oit.tudelft.nl/TUDelft-template/) for the TU Delft specific version of it. These links are visible in the action's summary as well, as shown in the figure of step 4.
+6. When the workflow has finished, visit your build open interactive learning material at `https://<username or organisation_name>.github.io/<repository_name>` (case sensitive). If you added it to the [TUDelft-books GitHub Organization](https://github.com/TUDelft-books) in step 2 it's on `https://oit.tudelft.nl/<repository_name>'. For our example it is [https://dummydocent.github.io/test_book_from_template/](https://dummydocent.github.io/test_book_from_template/) for the TeachBooks template repository and it's [https://oit.tudelft.nl/TUDelft-template/](https://oit.tudelft.nl/TUDelft-template/) for the TU Delft specific version of it. These links are visible in the action's summary as well, as shown in the figure of step 4.
 
-7. Want to get started directly? Your book contains a few exercises to get your started! Visit `https://<username or organiszation_name>.github.io/<repository_name>/exercises/exercises` or  `https://oit.tudelft.nl/<repository_name>/exercises/exercises' (case sensitive) to get started with the first ones to get the basics of how to interact with your book on GitHub.
+7. Want to get started directly? Your open interactive learning material contains a few exercises to get your started! Visit `https://<username or organiszation_name>.github.io/<repository_name>/exercises/exercises` or  `https://oit.tudelft.nl/<repository_name>/exercises/exercises' (case sensitive) to get started with the first ones to get the basics of how to interact with your open interactive learning material on GitHub.
 
 ![exercises](https://github.com/TeachBooks/template_figures/blob/main/exercises.png?raw=true)
 
@@ -52,7 +52,7 @@ Set the repository website as your GitHub Pages website under `Code`- `About` - 
 - An example of setting up preprocessing your table of contents to hide certain draft chapters for eg. students (`_toc.yml`)
 - A file containing all the recommended software packages (`requirements.txt`)
 - A file containing the recommended license CC BY 4.0 (`LICENSE.md`)
-- Our [GitHub workflow for publishing your open interactive textbook to GitHub Pages](https://github.com/TeachBooks/deploy-book-workflow) (`.github/workflow/call-deploy-book.yml`)
+- Our [GitHub workflow for publishing your open interactive learning material to GitHub Pages](https://github.com/TeachBooks/deploy-book-workflow) (`.github/workflow/call-deploy-book.yml`)
 - A gitignore file containing standard python filetype to ignore (`.gitignore`)
 - A readme containing information how to use the template, which can adjusted after using the template (`README.md`)
 
@@ -62,9 +62,9 @@ This tool's repository is stored on [GitHub](https://github.com/TeachBooks/templ
 ## Template README
 > Remove all of the above after you've taken this template and followed the instructions. The following lines are a template for your own README
 
-# `<Book title>`
+# `<Open interactive learning material title>`
 
-`<description of book's content en target audience>`
+`<description of open interactive learning material's content en target audience>`
 
 ## Contributors
 - `<list authors>`
@@ -72,6 +72,6 @@ This tool's repository is stored on [GitHub](https://github.com/TeachBooks/templ
 ## Reuse content
 Feel free to reuse this content or contribute to it. Please give appropriate credit, provide a link to the license, and indicate if changes were made ([CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/))
 
-The website (`<book_website_url>`) is created using the [TeachBooks Python package](https://github.com/TeachBooks/TeachBooks). To recreate it you have two options (more information in the [TeachBooks manual](https://teachbooks.io/manual/):
+The website (`<open_interactive_learning_material_website_url>`) is created using the [TeachBooks Python package](https://github.com/TeachBooks/TeachBooks). To recreate it you have two options (more information in the [TeachBooks manual](https://teachbooks.io/manual/):
 - In the GitHub interface: fork this repository, enable Github Pages from the source GitHub actions (Settings - Code and automation - Pages - Build and deployment - Source - GitHub Actions), enable workflows (Actions - I understand my workflows, go ahead and enable them) and run the call-deploy-book workflow (Actions - call-deploy-book - Run workflow - Run workflow). The website is released on the URL as shown on the workflow summary when the workflow has finished (Actions - call-deploy-book - call-deploy-book - Summary).
 - On your own computer: clone this repository, install the required packages (`pip install -r requirements.txt`) and build the book (`teachbooks build book`). The website is stored locally in `book/_build/index.html`.
