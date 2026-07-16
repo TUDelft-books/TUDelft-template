@@ -29,6 +29,7 @@ sphinx:                                              # Options passed on to the 
     #html_favicon:                                   # Default value not shown (line can be removed), allows to add your own favicon (disabling of TU Delft favicon is required), configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
     html_baseurl: "https://oit.tudelft.nl>/<repo>"   # Replace this with your own URL, configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
     html_theme_options:
+      home_page_in_toc: true                         # Replace with false it you don't want the landing page to be shown in the table of contents.
       logo:
         text: TU Delft GitHub OILM Template          # Replace this with your own open interactive learning material title, configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
         # image_light:                               # Default value not shown (line can be removed), adds your logo for the light mode here (can be the same as image_dark) (disabling of TU Delft logo is required), configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
@@ -117,6 +118,7 @@ sphinx:                                              # Options passed on to the 
     zoomies_toolbar: ["zoomIn", "zoomOut", "oneToOne", "reset"] # Default value (line can be removed), tools to show in the zoomable view, configuration part of TeachBooks-Zoomies (https://github.com/TeachBooks/TeachBooks-Zoomies)
     zoomies_invert_colors: false                     # Default value (line can be removed), disables inversion of colours in the zoomable view as this functionality is provided by Shpinx-Image-Inverter, configuration part of TeachBooks-Zoomies (https://github.com/TeachBooks/TeachBooks-Zoomies)
     zoomies_bg_apply_to_img: true                    # Default value (line can be removed), adds a background/padding directly to the image in the zoomable view., configuration part of TeachBooks-Zoomies (https://github.com/TeachBooks/TeachBooks-Zoomies)
+    todo_include_todos: true                         # Enables to dos in documentation, configuration part of sphinx.ext.todo (https://www.sphinx-doc.org/en/master/usage/extensions/todo.html)
 
 
 teachbooks:
